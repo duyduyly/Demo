@@ -1010,6 +1010,13 @@ body {
   gap: 0.6rem;
 }
 
+.editor-heading-actions .target-badge {
+  background: var(--moss);
+  color: #fff;
+  line-height: 1;
+  margin: 0;
+}
+
 .day-editor-list,
 .workout-editor-list {
   display: grid;
