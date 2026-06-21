@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ex_bent_over_barbell_row",
+    "name": "Bent Over Barbell Row",
+    "description": "A compound pulling exercise that develops upper-back strength and reinforces a stable hip hinge.",
+    "mainTarget": "Back",
+    "muscleGroups": ["Back", "Shoulders", "Biceps"],
+    "images": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=9efgcAjQe7E"
+  },
+  {
+    "id": "ex_goblet_squat",
+    "name": "Goblet Squat",
+    "description": "A squat variation performed with a dumbbell held close to the chest.",
+    "mainTarget": "Legs",
+    "muscleGroups": ["Quadriceps", "Glutes", "Core"],
+    "images": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=MeIiIdhvXT4"
+  },
+  {
+    "id": "ex_push_up",
+    "name": "Push-up",
+    "description": "A bodyweight press that builds chest, shoulder, triceps, and trunk strength.",
+    "mainTarget": "Chest",
+    "muscleGroups": ["Chest", "Shoulders", "Triceps"],
+    "images": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=IODxDxX7oi4"
+  },
+  {
+    "id": "ex_romanian_deadlift",
+    "name": "Romanian Deadlift",
+    "description": "A controlled hip-hinge movement focused on the hamstrings and glutes.",
+    "mainTarget": "Hamstrings",
+    "muscleGroups": ["Hamstrings", "Glutes", "Back"],
+    "images": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=JCXUYuzwNrM"
+  },
+  {
+    "id": "ex_dead_bug",
+    "name": "Dead Bug",
+    "description": "A floor-based core drill that teaches trunk control while the limbs move.",
+    "mainTarget": "Core",
+    "muscleGroups": ["Core", "Hip Flexors"],
+    "images": [],
+    "youtubeUrl": "https://www.youtube.com/watch?v=4XLEnwUr1d8"
+  }
+]

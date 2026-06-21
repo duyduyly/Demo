@@ -1,0 +1,198 @@
+[
+  {
+    "id": "plan_4_day_strength",
+    "name": "Four-Day Foundation",
+    "description": "A balanced strength block with focused upper- and lower-body sessions.",
+    "days": [
+      {
+        "id": "day_1_pull",
+        "name": "Day 1 - Pull",
+        "note": "Build back strength with controlled reps.",
+        "workouts": [
+          {
+            "id": "workout_row_1",
+            "exerciseId": "ex_bent_over_barbell_row",
+            "sets": 4,
+            "reps": "8-10",
+            "weight": "Moderate",
+            "note": "Keep the torso stable."
+          }
+        ]
+      },
+      {
+        "id": "day_2_lower",
+        "name": "Day 2 - Lower",
+        "note": "Train the squat pattern and posterior chain.",
+        "workouts": [
+          {
+            "id": "workout_squat_1",
+            "exerciseId": "ex_goblet_squat",
+            "sets": 4,
+            "reps": "10",
+            "weight": "Moderate",
+            "note": "Stay tall through the torso."
+          },
+          {
+            "id": "workout_rdl_1",
+            "exerciseId": "ex_romanian_deadlift",
+            "sets": 3,
+            "reps": "8",
+            "weight": "Moderate",
+            "note": "Move through the hips."
+          }
+        ]
+      },
+      {
+        "id": "day_3_push",
+        "name": "Day 3 - Push",
+        "note": "Develop pressing strength and clean technique.",
+        "workouts": [
+          {
+            "id": "workout_pushup_1",
+            "exerciseId": "ex_push_up",
+            "sets": 4,
+            "reps": "8-15",
+            "weight": "Bodyweight",
+            "note": "Keep a straight line from head to heel."
+          }
+        ]
+      },
+      {
+        "id": "day_4_core",
+        "name": "Day 4 - Core + Recovery",
+        "note": "Finish the week with trunk control and easy movement.",
+        "workouts": [
+          {
+            "id": "workout_deadbug_1",
+            "exerciseId": "ex_dead_bug",
+            "sets": 3,
+            "reps": "8 per side",
+            "weight": "Bodyweight",
+            "note": "Keep the lower back gently pressed down."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "plan_3_day_full_body",
+    "name": "Three-Day Full Body",
+    "description": "A practical schedule for building strength when training time is limited.",
+    "days": [
+      {
+        "id": "full_body_day_1",
+        "name": "Day 1 - Build",
+        "note": "Use steady tempo and leave two reps in reserve.",
+        "workouts": [
+          {
+            "id": "workout_goblet_2",
+            "exerciseId": "ex_goblet_squat",
+            "sets": 3,
+            "reps": "10-12",
+            "weight": "Moderate",
+            "note": "Control the bottom position."
+          },
+          {
+            "id": "workout_pushup_2",
+            "exerciseId": "ex_push_up",
+            "sets": 3,
+            "reps": "8-15",
+            "weight": "Bodyweight",
+            "note": "Use an incline if needed."
+          }
+        ]
+      },
+      {
+        "id": "full_body_day_2",
+        "name": "Day 2 - Hinge",
+        "note": "Prioritize posterior-chain strength.",
+        "workouts": [
+          {
+            "id": "workout_rdl_2",
+            "exerciseId": "ex_romanian_deadlift",
+            "sets": 4,
+            "reps": "8",
+            "weight": "Moderate",
+            "note": "Stop before the back rounds."
+          }
+        ]
+      },
+      {
+        "id": "full_body_day_3",
+        "name": "Day 3 - Finish",
+        "note": "Combine upper-back work with core control.",
+        "workouts": [
+          {
+            "id": "workout_row_2",
+            "exerciseId": "ex_bent_over_barbell_row",
+            "sets": 3,
+            "reps": "10",
+            "weight": "Moderate",
+            "note": "Pause briefly at the top."
+          },
+          {
+            "id": "workout_deadbug_2",
+            "exerciseId": "ex_dead_bug",
+            "sets": 3,
+            "reps": "10 per side",
+            "weight": "Bodyweight",
+            "note": "Move slowly."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "plan_2_day_reset",
+    "name": "Two-Day Reset",
+    "description": "A low-complexity plan for returning to training or maintaining a busy week.",
+    "days": [
+      {
+        "id": "reset_day_1",
+        "name": "Day 1 - Strength",
+        "note": "Cover the primary movement patterns.",
+        "workouts": [
+          {
+            "id": "workout_squat_3",
+            "exerciseId": "ex_goblet_squat",
+            "sets": 3,
+            "reps": "8",
+            "weight": "Light",
+            "note": "Focus on range of motion."
+          },
+          {
+            "id": "workout_row_3",
+            "exerciseId": "ex_bent_over_barbell_row",
+            "sets": 3,
+            "reps": "10",
+            "weight": "Light",
+            "note": "Keep the neck neutral."
+          }
+        ]
+      },
+      {
+        "id": "reset_day_2",
+        "name": "Day 2 - Control",
+        "note": "Use bodyweight movements and precise form.",
+        "workouts": [
+          {
+            "id": "workout_pushup_3",
+            "exerciseId": "ex_push_up",
+            "sets": 3,
+            "reps": "Comfortable max",
+            "weight": "Bodyweight",
+            "note": "Stop before form breaks."
+          },
+          {
+            "id": "workout_deadbug_3",
+            "exerciseId": "ex_dead_bug",
+            "sets": 3,
+            "reps": "8 per side",
+            "weight": "Bodyweight",
+            "note": "Breathe out as the limbs extend."
+          }
+        ]
+      }
+    ]
+  }
+]
