@@ -217,18 +217,34 @@
   }
 
   .home-navbar .container {
+    align-items: center;
     flex-wrap: wrap;
     gap: 0.75rem;
+  }
+
+  .site-nav-shell {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .home-navbar .navbar-brand {
+    flex: 1 1 auto;
+    min-width: 0;
   }
 
   .brand-subtitle {
     display: none;
   }
 
+  .home-navbar .navbar-toggler {
+    margin-left: auto;
+  }
+
   .home-navbar .navbar-collapse {
     flex-basis: 100%;
     margin-left: 0;
     padding-top: 0;
+    width: 100%;
   }
 
   .site-nav-panel {

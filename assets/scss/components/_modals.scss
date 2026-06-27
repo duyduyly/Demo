@@ -1,7 +1,27 @@
-﻿.workout-modal {
-  background: var(--surface-elevated);
-  border: 0;
+.modal {
+  --bs-backdrop-opacity: 0.72;
+  z-index: 2000;
+}
+
+.modal-backdrop {
+  background-color: #000;
+  z-index: 1990;
+}
+
+.modal-backdrop.show {
+  opacity: 0.72;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.workout-modal {
+  background-color: var(--surface-card);
+  border: 1px solid var(--line);
   border-radius: 1.25rem;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
 }
 
 .workout-modal .modal-header {
@@ -19,6 +39,10 @@
 
 .workout-modal .modal-body {
   padding: 1.5rem;
+}
+
+.modal-dialog-centered .modal-content.workout-modal {
+  max-height: calc(100vh - 3rem);
 }
 
 .exercise-description {
@@ -43,7 +67,7 @@
 }
 
 .story-slider {
-  background: var(--surface-dark);
+  background: var(--color-surface);
   border-radius: 1rem;
   overflow: hidden;
   position: relative;
@@ -82,17 +106,19 @@
 
 .story-slider .carousel-item {
   align-items: center;
-  background: var(--surface-dark);
+  background: var(--color-surface);
   justify-content: center;
   min-height: clamp(24rem, 65vh, 46rem);
 }
 
 .story-image {
+  background: var(--color-surface);
   display: block;
   height: clamp(24rem, 65vh, 46rem);
   margin-inline: auto;
   max-width: 100%;
   object-fit: contain;
+  border-radius: inherit;
   width: 100%;
 }
 
