@@ -1,4 +1,4 @@
-@use "../abstracts/mixins" as m;
+﻿@use "../abstracts/mixins" as m;
 
 .navbar {
   background: var(--ink);
@@ -152,8 +152,8 @@
 
 .home-navbar .nav-link:hover,
 .home-navbar .nav-link:focus {
-  background: rgba(233, 228, 214, 0.4);
-  color: var(--color-text);
+  background: var(--nav-link-active-bg);
+  color: var(--nav-link-active-text);
 }
 
 .home-navbar .nav-link.active {
@@ -186,7 +186,7 @@
 .theme-toggle:hover,
 .theme-toggle:focus {
   background: var(--nav-link-active-bg);
-  color: var(--color-text);
+  color: var(--nav-link-active-text);
 }
 
 .theme-toggle:focus-visible {
@@ -257,8 +257,8 @@
   }
 
   .home-navbar .nav-link.active {
-    background: rgba(233, 228, 214, 0.82);
-    color: var(--color-text);
+    background: var(--nav-link-active-bg);
+    color: var(--nav-link-active-text);
     box-shadow: inset 0 0 0 1px rgba(105, 114, 74, 0.08);
   }
 

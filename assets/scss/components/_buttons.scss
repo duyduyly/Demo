@@ -1,4 +1,4 @@
-.btn {
+﻿.btn {
   border-radius: 999px;
   font-size: 0.82rem;
   font-weight: 800;
@@ -78,15 +78,15 @@
 }
 
 .btn.btn--secondary {
-  background: rgba(255, 255, 255, 0.72);
+  background: var(--surface-card);
   border-color: var(--border-soft);
   color: var(--text-primary);
 }
 
 .btn.btn--secondary:hover,
 .btn.btn--secondary:focus-visible {
-  background: #fff;
-  border-color: rgba(105, 114, 74, 0.22);
+  background: var(--surface-panel);
+  border-color: var(--color-border);
   color: var(--text-primary);
 }
 

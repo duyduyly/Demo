@@ -1,4 +1,4 @@
-.dashboard-panel,
+﻿.dashboard-panel,
 .surface-panel,
 .toolbar-panel,
 .form-shell {
@@ -26,10 +26,10 @@
 .meta-chip,
 .plan-meta-chip {
   align-items: center;
-  background: rgba(233, 228, 214, 0.82);
-  border: 1px solid rgba(105, 114, 74, 0.12);
+  background: var(--surface-primary-soft);
+  border: 1px solid var(--border-soft);
   border-radius: 999px;
-  color: var(--ink);
+  color: var(--color-text);
   display: inline-flex;
   font-size: 0.68rem;
   font-weight: 800;

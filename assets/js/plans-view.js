@@ -126,9 +126,6 @@ function renderPlanMetrics(plans) {
 
   const scheduledPlans = plans.filter((plan) => Number(plan.daysPerWeek) > 0);
   const descriptivePlans = plans.filter((plan) => plan.description).length;
-  const averageDays = scheduledPlans.length
-    ? (scheduledPlans.reduce((total, plan) => total + Number(plan.daysPerWeek || 0), 0) / scheduledPlans.length).toFixed(1)
-    : "0";
 
   metrics.innerHTML = `
     <div class="hero-metric">
@@ -142,10 +139,6 @@ function renderPlanMetrics(plans) {
     <div class="hero-metric">
       <span>Metadata ready</span>
       <strong>${descriptivePlans}</strong>
-    </div>
-    <div class="hero-metric">
-      <span>Avg. days</span>
-      <strong>${averageDays}</strong>
     </div>
   `;
 }

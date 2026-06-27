@@ -1,4 +1,4 @@
-
+﻿
 @use "../abstracts/mixins" as m;
 
 .manager-section {
@@ -138,6 +138,9 @@
 
 .review-stats > div {
   display: grid;
+  background: var(--surface-panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
   padding: 0.9rem;
 }
 
@@ -240,7 +243,7 @@
 }
 
 .day-editor {
-  background: rgba(233, 228, 214, 0.62);
+  background: var(--surface-primary-soft);
   border-radius: 1.15rem;
   padding: 1rem;
 }

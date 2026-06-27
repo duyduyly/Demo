@@ -1,4 +1,4 @@
-.dashboard-stat {
+﻿.dashboard-stat {
   background: var(--surface-panel);
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
@@ -70,10 +70,10 @@
 }
 
 .manager-status-chip {
-  background: rgba(233, 228, 214, 0.82);
-  border: 1px solid rgba(105, 114, 74, 0.12);
+  background: var(--surface-primary-soft);
+  border: 1px solid var(--border-soft);
   border-radius: 999px;
-  color: var(--ink);
+  color: var(--color-text);
   display: inline-flex;
   font-size: 0.68rem;
   font-weight: 800;
@@ -89,7 +89,7 @@
 }
 
 .manager-health-card {
-  background: rgba(255, 255, 255, 0.58);
+  background: var(--surface-panel);
   border: 1px solid var(--line);
   border-radius: 1rem;
   display: grid;
@@ -113,7 +113,7 @@
 }
 
 .manager-health-card small {
-  color: var(--ink-soft);
+  color: var(--color-muted);
   font-size: 0.78rem;
   line-height: 1.45;
 }

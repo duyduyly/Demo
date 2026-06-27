@@ -1,4 +1,4 @@
-@use "../abstracts/mixins" as m;
+﻿@use "../abstracts/mixins" as m;
 
 .exercise-library {
   background: var(--color-bg);
@@ -101,10 +101,10 @@
 }
 
 .exercise-media-chip {
-  background: rgba(255, 255, 255, 0.74);
-  border: 1px solid rgba(105, 114, 74, 0.12);
+  background: var(--surface-primary-soft);
+  border: 1px solid var(--border-soft);
   border-radius: 999px;
-  color: var(--ink);
+  color: var(--color-text);
   display: inline-flex;
   font-size: 0.67rem;
   font-weight: 800;
@@ -146,7 +146,7 @@
 }
 
 .exercise-record-item {
-  background: rgba(255, 255, 255, 0.52);
+  background: var(--surface-panel);
   border: 1px solid var(--line);
   border-radius: 0.95rem;
   display: grid;
@@ -188,7 +188,7 @@
 }
 
 .exercise-thumb {
-  background: rgba(255, 255, 255, 0.55);
+  background: var(--surface-card);
   border-radius: 1rem;
   height: 11rem;
   object-fit: cover;

@@ -1,4 +1,4 @@
-@mixin respond-down($breakpoint: 767.98px) {
+﻿@mixin respond-down($breakpoint: 767.98px) {
   @media (max-width: $breakpoint) {
     @content;
   }
@@ -17,17 +17,17 @@
 }
 
 @mixin hero-panel {
-  background: var(--surface-cream);
-  border: 1px solid var(--hero-panel-border);
-  border-radius: var(--radius-lg);
+  background: $surface-cream;
+  border: 1px solid $hero-panel-border;
+  border-radius: $radius-lg;
   display: grid;
-  gap: var(--space-4);
+  gap: $space-4;
   padding: 1.35rem;
 }
 
 @mixin hero-point {
-  background: var(--surface-strong);
-  border: 1px solid var(--line);
+  background: $surface-strong;
+  border: 1px solid $line;
   border-radius: 1rem;
   display: grid;
   gap: 0.2rem;
@@ -38,7 +38,7 @@
   transition: box-shadow 180ms ease, transform 180ms ease;
 
   &:hover {
-    box-shadow: var(--shadow);
+    box-shadow: $shadow;
     transform: translateY(-5px);
   }
 }

@@ -1,4 +1,4 @@
-@use "../abstracts/mixins" as m;
+﻿@use "../abstracts/mixins" as m;
 
 .plan-summary {
   display: flex;
@@ -87,10 +87,10 @@
 }
 
 .day-set-count {
-  background: rgba(105, 114, 74, 0.12);
-  border: 1px solid rgba(105, 114, 74, 0.14);
+  background: var(--surface-primary-soft);
+  border: 1px solid var(--border-soft);
   border-radius: 999px;
-  color: var(--ink);
+  color: var(--color-text);
   font-size: 0.72rem;
   font-weight: 800;
   padding: 0.45rem 0.7rem;
@@ -232,7 +232,7 @@
 }
 
 .workout-stat {
-  background: rgba(232, 228, 214, 0.72);
+  background: var(--surface-primary-soft);
   border-radius: 0.85rem;
   display: grid;
   min-width: 4.5rem;
